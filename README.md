@@ -1,6 +1,6 @@
 # Playwright + TypeScript: Learning Automation by Practice
 
-This repository documents how I'm learning UI test automation with Playwright and TypeScript. Each part of the work lands through its own pull request, the same way it would on a real team.
+This repository documents how I'm learning UI test automation with Playwright and TypeScript. Each part of the work lands through its own pull request, the same way it would on a real project.
 
 ## What I built
 - End-to-end UI tests for [saucedemo.com](https://www.saucedemo.com) (login, inventory, cart, checkout), running in Chromium, Firefox and WebKit
@@ -17,7 +17,11 @@ This repository documents how I'm learning UI test automation with Playwright an
 - Git workflow: feature branches, small pull requests with clear descriptions, reviewing my own diffs
 
 ## How to run
+
 npm install
+
 npx playwright install
+
 npx playwright test
+
 npx playwright show-report

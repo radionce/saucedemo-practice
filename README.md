@@ -26,4 +26,3 @@ npx playwright test
 
 npx playwright show-report
 
-npx playwright show-report

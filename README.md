@@ -3,11 +3,11 @@
 This repository documents how I'm learning UI test automation with Playwright and TypeScript. Each part of the work lands through its own pull request, the same way it would on a real project.
 
 ## What I built
-- End-to-end UI tests for [saucedemo.com](https://www.saucedemo.com) (login, inventory, cart, checkout), running in Chromium, Firefox and WebKit
+- End-to-end UI tests for [saucedemo.com](https://www.saucedemo.com) (login, inventory, cart, checkout), running in Chromium, Firefox and WebKit.
 - A shared login helper and `beforeEach` hooks to keep tests short and independent
-- Positive and negative scenarios: invalid credentials, locked-out user, access to pages without login, form validation
-- Data checks on the product list: price format with regular expressions, unique product images, item counts
-- A known site defect (cart contents survive logout), recorded with `test.fail` and written up as a bug report
+- Positive and negative scenarios: invalid credentials, locked-out user, access to pages without login, form validation.
+- Data checks on the product list: price format with regular expressions, unique product images, item counts.
+- A known site defect (cart contents survive logout), recorded with `test.fail` and written up as a bug report.
 
 ## What I practiced
 - Choosing stable locators (`getByRole`, `getByLabel`, `getByTestId`) instead of brittle CSS paths

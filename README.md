@@ -18,6 +18,9 @@ This repository documents how I'm learning UI test automation with Playwright an
 
 ## How to run
 npm install
+
 npx playwright install
+
 npx playwright test
+
 npx playwright show-report
